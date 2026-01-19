@@ -32,17 +32,17 @@ todos:
       - phase3-state
   - id: phase4-scrape
     content: Create Crawl4AI scrape_page tool
-    status: pending
+    status: completed
     dependencies:
       - phase3-loop
   - id: phase4-integrate
     content: Add scrape tool to agent, test search+scrape flow
-    status: pending
+    status: completed
     dependencies:
       - phase4-scrape
   - id: phase5-structure
     content: Add JobListing structure and format output
-    status: pending
+    status: in_progress
     dependencies:
       - phase4-integrate
   - id: phase5-polish
